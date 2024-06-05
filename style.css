@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.form-tambah {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0rem;
+    background-color: rgb(46, 184, 81);
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 200px;
+    border-radius: 20px;
+}
+.form-edit {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0rem;
+    background-color: rgb(46, 184, 81);
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 200px;
+    border-radius: 20px;
+}
+input {
+    padding: 0.2rem 0.3rem;
+    border-radius: 5px;
+
+}
+
+.btn-tambah {
+    background-color: green;
+    padding: 0.3rem 0.7rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.btn-edit {
+    background-color: grey;
+    color: white;
+    padding: 0.2rem 0.4rem;
+    border-radius: 5px;
+}
+
+.btn-hapus {
+    background-color: red;
+    color: white;
+    padding: 0.2rem 0.4rem;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.view {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(136, 205, 136);
+    padding: 2rem 2rem;
+
+}
+
+table  {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border-radius: 1px solid #dddddd;
+    text-align: center;
+}
+th {
+    background-color: green;
+    color: white;
+}
+
+td {
+    background-color: rgba(255, 255, 255, 0.842);
+}
+
+.aksi {
+    display: flex;
+    justify-content: space-between;
+}
